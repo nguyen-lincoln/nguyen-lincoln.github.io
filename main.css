@@ -1,0 +1,71 @@
+body, html{
+    background-color: grey;
+    font-family: "Impact";
+    height: 100vh;
+
+}
+
+#about-me{
+    margin-top: 30vh;
+    height: 100vh;
+}
+
+#my-projects{
+    height: 100vh;
+}
+
+#resume{
+    height: 100vh;
+}
+
+#contact{
+    height: 100vh;
+}
+
+ h1{
+    color: white;
+    font-size: 3.7vw;
+
+}
+
+p{  
+    font-size: 2vw;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.typing h1 {
+    width: auto;
+    display: inline-block;
+    overflow: hidden; 
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0em;
+    animation: 
+      typing 3s steps(40, end),
+      blink-caret .70s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { max-width: 0 }
+    to { max-width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #0066ff; }
+  }
+
+/* The animation code */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fade-in {
+    animation-name: fadeIn;
+    animation-duration: 4s;
+}
