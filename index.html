@@ -12,6 +12,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
     <!-- CSS -->
     <link rel="stylesheet" href="sidebar.css">
     <link rel="stylesheet" href="main.css">
@@ -23,15 +26,16 @@
           <div class="container-fluid">
             <div class="row">
 
-                <!-- Sidebar Navigation -->
                 <section id="sidebar" class="col-md-3">
                   <div class="inner">
+
+                    <!-- Sidebar Navigation -->
                     <ul class="nav" id="navbar">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#about-me">ABOUT ME</a>
-                            <a class="nav-link" href="#my-projects">MY PROJECTS</a>
-                            <a class="nav-link" href="#resume">RESUME</a>
-                            <a class="nav-link" href="#contact">CONTACT</a>
+                            <a class="nav-link active animated fadeInUp delay-1" href="#about-me">ABOUT ME</a>
+                            <a class="nav-link projects animated fadeInUp delay-2" href="#my-projects">MY PROJECTS</a>
+                            <a class="nav-link resume animated fadeInUp delay-3" href="#resume">RESUME</a>
+                            <a class="nav-link contact animated fadeInUp delay-4" href="#contact">CONTACT</a>
                         </li>
                     </ul>
                   </div>
@@ -39,18 +43,18 @@
                 
                 <!-- Main Content -->
                 <section id="about-me" class="col-md-9">
-                    <div class="typing">
+                    <div class="typing animated fadeInUp">
                       <h1>Hi, my name is Lincoln Nguyen.</h1>
                     </div>
-                    <div class="fade-in">
+                    <div class="animated fadeInUp delay-5">
                       <p>I am an IT professional with 4 years of work experience. I am also an aspiring software developer with
                         some experience in Python, Javascript, Java, and C#. I am currently pursuing my Master's of
                         Computer Science at Georgia Tech and have plans to transition, professionally, into software development. 
                       </p>
                     </div>
                 </section>
-                <section id="my-projects" class="col-md-9">
-                    <h2></h2>
+                <section id="my-projects">
+                    <h2>My Projects</h2>
                 </section>
                 <section id="resume" class="col-md-9">
 

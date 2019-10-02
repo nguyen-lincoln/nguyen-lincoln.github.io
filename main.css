@@ -6,12 +6,14 @@ body, html{
 }
 
 #about-me{
-    margin-top: 30vh;
+    padding-top: 30vh;
     height: 100vh;
 }
 
 #my-projects{
     height: 100vh;
+    width: 100vw;
+    padding-left: 25vw;
 }
 
 #resume{
@@ -26,6 +28,13 @@ body, html{
     color: white;
     font-size: 3.7vw;
 
+}
+
+h2{
+    color: white;
+    font-size: 3vw;
+    text-align: left;
+    margin-top: 10vh;
 }
 
 p{  
@@ -46,6 +55,50 @@ p{
       typing 3s steps(40, end),
       blink-caret .70s step-end infinite;
   }
+
+  .delay-5{
+      animation-delay: 2.3s;
+  }
+
+  /* Fade up 
+  @keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
   
   /* The typing effect */
   @keyframes typing {
@@ -58,14 +111,3 @@ p{
     from, to { border-color: transparent }
     50% { border-color: #0066ff; }
   }
-
-/* The animation code */
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-.fade-in {
-    animation-name: fadeIn;
-    animation-duration: 4s;
-}
