@@ -18,10 +18,14 @@ body, html{
 
 #resume{
     height: 100vh;
+    width: 100vw;
+    padding-left: 25vw;
 }
 
 #contact{
     height: 100vh;
+    width: 100vw;
+    padding-left: 25vw;
 }
 
  h1{
@@ -54,10 +58,6 @@ p{
     animation: 
       typing 3s steps(40, end),
       blink-caret .70s step-end infinite;
-  }
-
-  .delay-5{
-      animation-delay: 2.3s;
   }
 
   /* Fade up 
